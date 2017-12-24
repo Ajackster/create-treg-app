@@ -15,6 +15,7 @@ class App extends React.Component<AppProps> {
   public render() {
     return this.props.data && this.props.data.users ? (
       <div>
+        <h1>Welcome to create-treg-app</h1>
         {this.props.data.users.map((user) => {
           return <div key={user.id}>{user.id} {user.name}</div>;
         })}
