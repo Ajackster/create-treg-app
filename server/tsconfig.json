@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "jsx": "react",
+      "outDir": "dist",
+      "rootDir": "src",
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": false,
+      "experimentalDecorators": true,
+      "preserveConstEnums": true,
+      "allowJs": true,
+      "sourceMap": false,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node"
+  },
+  "include": ["./src/"],
+  "exclude": [
+      "App.js",
+      "App.test.js",
+      "build",
+      "node_modules"
+  ]
+}

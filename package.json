@@ -1,0 +1,16 @@
+{
+  "name": "create-treg-app",
+  "version": "0.0.1",
+  "description": "A basic app to help developers skip all the boilerplate when setting up a project using typescript, react, express, and graphql",
+  "main": "index.js",
+  "author": "Andrew Jackson (https://github.com/Ajackster)",
+  "license": "MIT",
+  "bin": {
+    "create-treg-app": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.12.2",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
